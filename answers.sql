@@ -46,9 +46,6 @@ INSERT INTO OrderDetails (OrderID, Product, Quantity) VALUES
 (102, 'Mouse', 2),
 (103, 'Phone', 1);
 
--- Step 5: Optional - View the joined result
-SELECT o.OrderID, o.CustomerName, d.Product, d.Quantity
-FROM Orders o
-JOIN OrderDetails d ON o.OrderID = d.OrderID;
+
 
 
